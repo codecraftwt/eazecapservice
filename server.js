@@ -54,7 +54,7 @@ app.get('/api/check-scan-status', async (req, res) => {
     }
 });
 
-app.get('/', (req, res) => {
+app.get('/api/', (req, res) => {
     res.send('Hello! The server is up and running.');
 });
 
