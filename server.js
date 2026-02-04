@@ -54,6 +54,10 @@ app.get('/api/check-scan-status', async (req, res) => {
     }
 });
 
+app.get('/', (req, res) => {
+    res.send('Hello! The server is up and running.');
+});
+
 const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Malware Check Server running on http://localhost:${PORT}`);
