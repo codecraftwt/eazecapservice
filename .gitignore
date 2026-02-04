@@ -1,0 +1,35 @@
+# 1. Dependencies
+node_modules/
+jspm_packages/
+package-lock.json
+
+# 2. Environment Secrets (CRITICAL)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+aws-keys.json
+
+# 3. Build & Production Outputs
+dist/
+build/
+out/
+.next/
+
+# 4. Logs and Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+# 5. OS Specific Files
+.DS_Store
+Thumbs.db
+
+# 6. IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
